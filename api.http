@@ -1,0 +1,14 @@
+@host = http://localhost:3000
+
+### Get Users
+GET {{host}}/api/users
+Accept: application/json
+
+### Create User
+POST {{host}}/api/users
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "email": "john@example.com"
+}
