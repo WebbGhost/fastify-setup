@@ -1,0 +1,38 @@
+{
+  "name": "fastify-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "migrate": "drizzle-kit generate:pg"
+  },
+  "keywords": [
+    "Fastify Tempelete",
+    "Fastify Typescript Tempelete"
+  ],
+  "author": "Shabir Khan",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.31.2",
+    "drizzle-orm": "^0.29.1",
+    "fastify": "^4.25.1",
+    "fastify-guard": "^2.0.0",
+    "fastify-zod": "^1.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.11.3",
+    "pino": "^8.17.1",
+    "pino-pretty": "^10.3.0",
+    "zennv": "^0.1.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/pg": "^8.10.9",
+    "drizzle-kit": "^0.20.7",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "zod-to-json-schema": "^3.22.3"
+  }
+}
